@@ -12,7 +12,9 @@ var miles;
 var speed;
 
 for(miles = 1; miles<=limit; miles++){
-    console.log("pop out a piece of candy");
+    if(miles%2 == 0){
+        console.log("pop out a piece of candy");
+    }
 }
 
 //Stretch Feature 1----------------------------------
