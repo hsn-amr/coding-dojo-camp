@@ -11,14 +11,14 @@ var limit = 6;
 var miles;
 var speed;
 
-for(miles = 1; miles<=limit; miles++){
+for(miles = 1; miles<limit; miles++){
     if(miles%2 == 0){
         console.log("pop out a piece of candy");
     }
 }
 
 //Stretch Feature 1----------------------------------
-for(miles = 1; miles<=limit; miles++){
+for(miles = 1; miles<limit; miles++){
     if(speed > 5.5 || miles%2 == 0){
         console.log("pop out a piece of candy");
     }
