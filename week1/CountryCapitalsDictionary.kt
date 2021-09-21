@@ -18,7 +18,7 @@ fun main(){
         }
     }
 
-    for (country in countryAndCapitals){
-        println("${country.key}, its capital is ${country.value}")
+    for ((key, value) in countryAndCapitals) {
+        println("$key, its capital is $value")
     }
 }
