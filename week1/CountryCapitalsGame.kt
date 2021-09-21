@@ -51,7 +51,7 @@ fun main(){
             count = 0
             countriesUsed.clear()
             print("Would you like to play again? (y/n) >> ")
-            wantContinue = readLine()!!
+            wantContinue = readLine()!!.toLowerCase()
         }
 
     }
