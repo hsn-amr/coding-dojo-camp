@@ -14,9 +14,7 @@ fun main(){
     }
 
     for (i in 1..3){
-        for (j in 0..0){
-            println(countryAndCapital[i][j] + ", its capital is " + countryAndCapital[i][j+1])
-        }
+        println(countryAndCapital[i][0] + ", its capital is " + countryAndCapital[i][1])
     }
 
 }
