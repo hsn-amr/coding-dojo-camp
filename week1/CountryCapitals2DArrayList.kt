@@ -13,7 +13,7 @@ fun main(){
         countryAndCapital.add(arrayListOf(country, capital))
     }
 
-    for (i in 1..3){
+    for (i in 1..countryAndCapital.size-1){
         println(countryAndCapital[i][0] + ", its capital is " + countryAndCapital[i][1])
     }
 
